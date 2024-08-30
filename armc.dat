@@ -1,0 +1,22 @@
+         0                    ! istart: 0-CDT generate, 1-CDT from previous run
+         0                    ! ilts: 0 - solid, 1 - random
+       216                    ! natom: No of atoms
+    100000                    ! nsteps: No of MC steps
+       200                    ! nprint
+     1.194                    ! epsln: Ar epsilon (kJ/mol)
+     0.344                    ! sigma: Ar sigma (nm)
+    84.0                      ! temp: Initial temperature(K)
+ -1200.00                     ! expTenergy: Expected Total Energy (kJ/mol)
+    39.948                    ! mar: Mass of Argon (g/mol)
+     0.008314                 ! kb: Boltzmann constant (k/mol/K)
+     1.0                      ! rcut: Cutoff distance (nm)
+     0.05                     ! dlt: MC step size (nm)
+     2.34                     ! xbox (nm)
+     2.34                     ! ybox
+     2.34                     ! zbox
+armc.out                      ! General output file
+armc.eng                      ! Energy output file
+armc.cdt                      ! Coordinate output file
+init.pdb                      ! Coordinate output file
+finl.pdb                      ! Coordinate output file
+
