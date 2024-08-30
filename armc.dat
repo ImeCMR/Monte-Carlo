@@ -1,0 +1,21 @@
+     0              ! istart:0 - CDT generate, 1- CDT from previous run
+     0              ! ilts: 0 - solid , 1- random
+   216              ! natom:No. of atoms
+ 20000              ! nsteps:No. of Mc steps
+   200              ! nprint
+ 1.194              ! epsln: Ar epsilon(KJ/mol)
+ 0.344              ! sigma: Ar sigma (nm)
+84.0                ! temp : intial temp
+-1200.00            ! expTenergy :expected total energy
+39.948              ! mar: Mass of Argon (g/mol)
+0.008314            ! kb: Boltzmann constant (kJ/mol/K)
+ 1.0                ! rcut: cutoff distance (nm)
+ 0.05               ! dlt : MC time step(ps)
+ 2.34               ! xbox (nm)
+ 2.34               ! ybox (nm)
+ 2.34               ! zbox (nm)
+armc.out            ! General out file
+armc.eng            ! energy out file
+armc.cdt            ! coordinate  out file
+init.pdb            ! coordinate outfile
+finl.pdb            ! final coordinates
